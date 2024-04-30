@@ -49,7 +49,7 @@ export const projects = [
     overview: "お知らせ機能がついた会員管理システム",
     messagetitle: "【使用技術】",
     message: "Java / SpringBoot / Mysql / BootStrap",
-    githubUrl: "",
+    githubUrl: "https://github.com/smieanne/MemberList",
     image: "../../assets/projects/Java_club_member.gif",
     category: ["Other"],
     projectUrl: "http://java.apps.rok.jp:22561/",
