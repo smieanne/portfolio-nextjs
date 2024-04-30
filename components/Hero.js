@@ -5,57 +5,55 @@ import "../app/animations.css";
 
 function Hero() {
   return (
-    <section className="w-full lg:h-screen h-fit bg-whitesmoke relative px-[40px] py-10 max-xs:px-[20px]">
-      <div className="max-w-7xl flex items-center justify-between h-full mx-auto max-md:flex-col max-md:gap-10 max-md:text-center">
-        {/*左 */}
-        <div className="flex flex-col gap-5 z-40 max-md:order-2">
-          <div className="text-4xl lg:text-6xl">
-            <h1 className="font-medium">Leave system </h1>
-            <span className="font-bold text-cyan-700">Development</span>
-            <h2>to ORIGIN.Doc</h2>
-            <p className="mt-5 text-xl">
-              システム開発ならORIGIN.Docにお任せください！フルスタックエンジニアとして、
-              幅広い技術スタックを駆使し、ソフトウェア開発のさまざまな側面に取り組んでいます。
-            </p>
+    <section className=" w-full lg:h-screen h-fit  relative   max-xs:mb-[40px]">
+      <div className="w-full h-full  flex items-center justify-between  max-md:flex-col max-md:gap-10 max-md:text-right ">
+        <div
+          style={{
+            backgroundImage: `url('/assets/top.jpg')`,
+            width: "100%",
+            height: "100vh",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+
+            zIndex: 10,
+          }}
+        >
+          <div className="flex flex-col gap-5 z-40 max-md:order-2  mt-72 ml-20 max-sm:mt-28">
+            <div className="text-4xl lg:text-6xl text-white">
+              <h1 className="font-medium ">Welcome to</h1>
+              <h2 className="font-bold text-red-800">My Portfolio Site</h2>
+              <p className=" text-2xl font-bold max-sm:text-sm">
+                Dreaming up and realize our dreams.
+              </p>
+
+              {/* <span className="tex-white text-sm">夢を描いて夢を叶える</span> */}
+              <p className="mt-40 text-2xl text-white opacity-75 max-md:text-right max-md:mt-28 max-md:text-xs">
+                当ポートフォリオへ訪問いただきありがとうございます。
+                <br />
+                Javaから始まり最近ではReact/Next.jsを用いた
+                <br />
+                フロントエンド開発を担当させていただいております。
+                <br />
+                React.jsでのSPA開発や、Next.jsでのSSG開発のポートフォリオサイトです。
+              </p>
+            </div>
           </div>
 
-          <div className="flex gap-4 max-md:justify-center ">
-            <Link href={"#projects"}>
-              <button className="bg-darkblue text-white px-2 rounded-md py-1 hover:bg-darkblue/75 cursor-pointer lg:px-4">
-                開発実績
-              </button>
-            </Link>
-            <Link href={"#contact"}>
-              <button className="bg-darkblue text-white px-2 rounded-md py-1 hover:bg-darkblue/75 cursor-pointer lg:px-4">
-                コンタクト
-              </button>
-            </Link>
-          </div>
+          {/*animetioncss */}
+          <ul className="circles ">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
-
-        {/*右 */}
-        <Image
-          src={"/assets/heroimage.png"}
-          width={400}
-          height={400}
-          alt="heroImage"
-          className="z-10 rounded-full"
-        />
       </div>
-
-      {/*animetioncss */}
-      <ul className="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
     </section>
   );
 }

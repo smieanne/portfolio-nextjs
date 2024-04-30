@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { BsArrowUpSquareFill } from "react-icons/bs";
+import { BiSolidChevronsUp } from "react-icons/bi";
 
 function TopButton() {
   const [scrolling, setScrolling] = useState(false);
@@ -26,7 +26,7 @@ function TopButton() {
       }
     >
       <a href="#home">
-        <BsArrowUpSquareFill className="text-cyan-700 shadow-md" size={40} />
+        <BiSolidChevronsUp className="text-pink-700 shadow-md" size={40} />
       </a>
     </div>
   );

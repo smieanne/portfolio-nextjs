@@ -1,7 +1,8 @@
 import { M_PLUS_1p } from "next/font/google";
 import "./globals.css";
-import TopMenu from "@/components/TopMenu";
+
 import SideMenu from "@/components/SideMenu";
+import TopMenu from "../components/TopMenu";
 
 const m_PLUS_1p = M_PLUS_1p({
   subsets: ["latin"],
@@ -10,8 +11,8 @@ const m_PLUS_1p = M_PLUS_1p({
 });
 
 export const metadata = {
-  title: "ORIGIN.Doc",
-  description: "ORIGIN.Docのポートフォリオサイト",
+  title: "M.S Portfolio",
+  description: "ポートフォリオサイト",
 };
 
 export default function RootLayout({ children }) {

@@ -9,7 +9,7 @@ function Projects() {
   //フィルタ用
   const [activeCategory, setActiveCategory] = useState("all");
   const [filtered, setFiltered] = useState([]);
-  const [visibleProjects, setVisibleProjects] = useState(9);
+  const [visibleProjects, setVisibleProjects] = useState(6);
   const loadMoreProjects = () => {
     setVisibleProjects((preVisibleProjects) => preVisibleProjects + 6);
   };
@@ -22,11 +22,8 @@ function Projects() {
       <div className="max-w-7xl mx-auto">
         {/* セクションタイトル */}
         <div className="inline-block ">
-          <p className="bg-cadetblue text-white text-sm font-medium py-3 px-5 rounded-full flex items-center gap-2">
-            <span>
-              <AiFillBulb className="w-4 h-4" />
-            </span>
-            開発実績
+          <p className="text-black text-5xl  font-medium py-5 px-10 flex igap-2 max-sm:px-2">
+            Works
           </p>
         </div>
 
@@ -38,12 +35,16 @@ function Projects() {
         />
 
         {/* カード */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-20">
           <AnimatePresence>
             {filtered.slice(0, visibleProjects).map((project, index) => (
               <ProjectCard
                 key={index}
                 name={project.name}
+                overviewtitle={project.overviewtitle}
+                overview={project.overview}
+                messagetitle={project.messagetitle}
+                message={project.message}
                 githubUrl={project.githubUrl}
                 image={project.image}
                 projectUrl={project.projectUrl}
@@ -55,12 +56,12 @@ function Projects() {
 
         {/* もっとみる */}
         {visibleProjects < filtered.length && (
-          <div className="text-center mt-4">
+          <div className="text-center mt-4 mb-20">
             <button
-              className="bg-darkblue text-white px-2 rounded-md py-1 hover:bg-darkblue/75"
+              className="bg-black text-white px-2  rounded-md py-1 hover:bg-black/75"
               onClick={loadMoreProjects}
             >
-              もっとみる
+              See more
             </button>
           </div>
         )}

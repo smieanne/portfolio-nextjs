@@ -10,52 +10,23 @@ function About() {
       <div className="max-w-7xl mx-auto">
         {/*セクションタイトル*/}
         <div className="inline-block">
-          <p className="bg-cyan-700 text-white text-sm font-medium py-3 px-5 rounded-full flex items-center gap-2">
-            <span className="">
-              <AiFillBulb className="w-4 h-4" />
-            </span>
-            自己紹介
+          <p
+            className="text-black text-5xl text  font-medium py-5 px-5 flex items-center  gap-2  "
+            id="about"
+          >
+            AboutMe
           </p>
         </div>
 
         {/*メイン文*/}
-        <div className="mt-7">
-          <p className="mt-6 text-gray-600 text-lg md:text-xl leading-9">
-            バックエンド開発においては、データベース設計、API開発、サーバーサイドプログラミングなどを得意としています。
+        <div className="py-20 ">
+          <p className=" px-20 text-gray-600 text-lg md:text-xl max-sm:text-sm  max-sm:px-1 max-sm:py-1 leading-9 ">
+            東京都墨田区出身。
             <br />
-            フロントエンド開発では、ユーザビリティとユーザーエクスペリエンスに焦点を当て、モダンなフロントエンドフレームワークを使用して使いやすく美しい
-            ウェブアプリケーションを構築します。モバイルフレンドリーなデザインやリアルタイム対応など、モダンなウェブアプリケーションの要件を満たします。
-            <br />
-            また、コンテナ化、デプロイメント、CI/CDパイプラインの設計と実装にも熟練しており、クラウドプラットフォームでのアプリケーションの運用にも精通しています。
+            アメリカへダンス留学を経て約9年日本でダンサーとして活動。物流・貿易関連会社にてOL業にも従事、その後Java開発からスタート。
+            現在はReact.js開発にてモーダルフォール開発、状態管理はRedux、Recoil、Hooksを扱うことができます。
+            趣味はコーディング、筋トレ、麻雀、SNSサーフィン、カフェ巡り、たまにピアノ。
           </p>
-        </div>
-
-        {/*軽い実績 */}
-        <div className="mt-10">
-          <div className="w-full">
-            <ul className="flex justify-between gap-10 flex-col md:flex-row">
-              <li className="w-full shadow-sm">
-                <div className="w-full text-center py-[30px] md:py-[60px] rounded-md bg-whitesmoke">
-                  <h3 className="text-4xl mb-1 text-darkblue font-bold">
-                    900+
-                  </h3>
-                  <span>YouTube</span>
-                </div>
-              </li>
-              <li className="w-full shadow-sm">
-                <div className="w-full text-center py-[30px] md:py-[60px] rounded-md bg-whitesmoke">
-                  <h3 className="text-4xl mb-1 text-darkblue font-bold">40+</h3>
-                  <span>Project</span>
-                </div>
-              </li>
-              <li className="w-full shadow-sm">
-                <div className="w-full text-center py-[30px] md:py-[60px] rounded-md bg-whitesmoke">
-                  <h3 className="text-4xl mb-1 text-darkblue font-bold">3+</h3>
-                  <span>Years Experience</span>
-                </div>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </section>

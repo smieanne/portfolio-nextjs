@@ -16,21 +16,21 @@ function ProjectFilter({ activeCategory, setActiveCategory, setFiltered }) {
   }, [activeCategory, setFiltered]);
 
   return (
-    <div className="flex gap-5 my-10">
+    <div className="flex gap-5 my-10 px-20 max-xs:px-2 ">
       <button
         className={
           activeCategory == "all"
-            ? "bg-darkblue py-1 px-3 text-white rounded-lg"
+            ? "bg-black py-1 px-10 text-white rounded-lg "
             : null
         }
         onClick={() => setActiveCategory("all")}
       >
-        全て
+        All
       </button>
       <button
         className={
           activeCategory == "react"
-            ? "bg-darkblue py-1 px-3 text-white rounded-lg"
+            ? "bg-black py-1 px-10 text-white rounded-lg"
             : null
         }
         onClick={() => setActiveCategory("react")}
@@ -39,23 +39,23 @@ function ProjectFilter({ activeCategory, setActiveCategory, setFiltered }) {
       </button>
       <button
         className={
-          activeCategory == "aws"
-            ? "bg-darkblue py-1 px-3 text-white rounded-lg"
+          activeCategory == "Next.js"
+            ? "bg-black py-1 px-10 text-white rounded-lg"
             : null
         }
-        onClick={() => setActiveCategory("aws")}
+        onClick={() => setActiveCategory("Next.js")}
       >
-        AWS
+        Next.js
       </button>
       <button
         className={
-          activeCategory == "wordpress"
-            ? "bg-darkblue py-1 px-3 text-white rounded-lg"
+          activeCategory == "Other"
+            ? "bg-black py-1 px-10 text-white rounded-lg"
             : null
         }
-        onClick={() => setActiveCategory("wordpress")}
+        onClick={() => setActiveCategory("Other")}
       >
-        WordPress
+        Other
       </button>
     </div>
   );

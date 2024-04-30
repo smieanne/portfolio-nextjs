@@ -1,27 +1,27 @@
 export const sideMenuLinks = [
   {
     route: "/",
-    label: "ホーム",
+    label: "Home",
     sectionId: "home",
   },
   {
     route: "#about",
-    label: "自己紹介",
+    label: "AboutMe",
     sectionId: "about",
   },
   {
     route: "#skills",
-    label: "使用技術",
+    label: "Skills",
     sectionId: "skills",
   },
   {
     route: "#projects",
-    label: "開発実績",
+    label: "Works",
     sectionId: "projects",
   },
   {
     route: "#contact",
-    label: "コンタクト",
+    label: "Contact",
     sectionId: "contact",
   },
 ];

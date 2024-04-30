@@ -1,40 +1,57 @@
 import React from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import { GoLinkExternal } from "react-icons/go";
 import { motion } from "framer-motion";
 
-function ProjectCard({ name, githubUrl, image, projectUrl, deployed }) {
+function ProjectCard({
+  name,
+  overviewtitle,
+  overview,
+  messagetitle,
+  message,
+  githubUrl,
+  image,
+  projectUrl,
+  deployed,
+}) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
-      className="mb-4 p-4 border border-gray-200 rounded-lg bg-whitesmoke shadow-md"
+      className="mb-4 py-4 border border-gray-200 rounded-lg bg-whitesmoke shadow-md "
     >
+      <h3 className="ml-2 mb-2 text-xl ">{name}</h3>
       <img
         src={image}
         alt={`${name} Image`}
-        className="w-full h-auto mb-2 rounded-lg"
+        className="w-full h-52 mb-2 px-3"
       />
-      <h3 className="ml-2">{name}</h3>
-      <div className="flex gap-2 items-center w-full m-1">
-        <a
-          href={githubUrl}
-          target="blank"
-          className="text-darkblue p-1 rounded-full text-lg"
-        >
-          <AiFillGithub />
-        </a>
 
+      <p className="ml-3 mt-3 ">{overviewtitle}</p>
+      <p className="ml-3  ">{overview}</p>
+      <p className="ml-3 mt-3 ">{messagetitle}</p>
+      <p className="ml-3 ">{message}</p>
+
+      <div className=" flex flex-row justify-end ">
         {deployed ? (
           <a
             href={projectUrl}
             target="blank"
-            className="text-darkblue p-1 rounded-full text-2xl"
+            className="text-pink-700 pr-1  rounded-full text-2xl hover:text-black "
           >
-            <AiFillEye />
+            <GoLinkExternal />
           </a>
         ) : null}
+
+        <a
+          href={githubUrl}
+          target="blank"
+          className="text-pink-700 pr-5 rounded-full text-2xl hover:text-black "
+        >
+          <AiFillGithub />
+        </a>
       </div>
     </motion.div>
   );
