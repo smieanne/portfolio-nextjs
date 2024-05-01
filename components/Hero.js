@@ -18,7 +18,7 @@ function Hero() {
             zIndex: 10,
           }}
         >
-          <div className="flex flex-col gap-5 z-40 max-md:order-2  mt-72 ml-20 max-sm:mt-28">
+          <div className="flex flex-col gap-5 z-40 max-md:order-2  mt-60 ml-20 max-sm:mt-28">
             <div className="text-4xl lg:text-6xl text-white">
               <h1 className="font-medium ">Welcome to</h1>
               <h2 className="font-bold text-red-800">My Portfolio Site</h2>
@@ -27,7 +27,7 @@ function Hero() {
               </p>
 
               {/* <span className="tex-white text-sm">夢を描いて夢を叶える</span> */}
-              <p className="mt-40 text-2xl text-white opacity-75 max-md:text-right max-md:mt-28 max-md:text-xs">
+              <p className="mt-32 text-2xl text-white opacity-75 max-md:text-right max-md:mt-28 max-md:text-xs">
                 当ポートフォリオへ訪問いただきありがとうございます。
                 <br />
                 Javaから始まり最近ではReact/Next.jsを用いた
