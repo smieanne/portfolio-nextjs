@@ -49,6 +49,7 @@ function Projects() {
                 image={project.image}
                 projectUrl={project.projectUrl}
                 deployed={project.deployed}
+                deployed2={project.deployed2}
               />
             ))}
           </AnimatePresence>

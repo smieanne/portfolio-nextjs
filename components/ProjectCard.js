@@ -13,6 +13,7 @@ function ProjectCard({
   image,
   projectUrl,
   deployed,
+  deployed2,
 }) {
   return (
     <motion.div
@@ -44,14 +45,15 @@ function ProjectCard({
             <GoLinkExternal />
           </a>
         ) : null}
-
-        <a
-          href={githubUrl}
-          target="blank"
-          className="text-pink-700 pr-5 rounded-full text-2xl hover:text-black "
-        >
-          <AiFillGithub />
-        </a>
+        {deployed2 ? (
+          <a
+            href={githubUrl}
+            target="blank"
+            className="text-pink-700 pr-5 rounded-full text-2xl hover:text-black "
+          >
+            <AiFillGithub />
+          </a>
+        ) : null}
       </div>
     </motion.div>
   );

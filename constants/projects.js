@@ -8,6 +8,7 @@ export const projects = [
     githubUrl: "https://github.com/smieanne/discord-clone-udemy",
     image: "../../assets/projects/Discord-clone.gif",
     category: ["react"],
+    deployed2: true,
   },
   {
     name: "マイクロブログサイト",
@@ -18,6 +19,7 @@ export const projects = [
     githubUrl: "https://github.com/smieanne/next.js13-tailwindcss-udemy-blog",
     image: "../../assets/projects/NextBlogSite.gif",
     category: ["Next.js"],
+    deployed2: true,
   },
   {
     name: "ノートアプリ",
@@ -30,6 +32,7 @@ export const projects = [
     category: ["react"],
     projectUrl: "https://noteapp-with-react-bay.vercel.app/",
     deployed: true,
+    deployed2: true,
   },
   {
     name: "ポケモン図鑑",
@@ -42,6 +45,7 @@ export const projects = [
     githubUrl: "https://github.com/smieanne/pokemon-app",
     projectUrl: "https://pokemon-app-amber-one.vercel.app/",
     deployed: true,
+    deployed2: true,
   },
   {
     name: "会員管理システム",
@@ -53,7 +57,7 @@ export const projects = [
     image: "../../assets/projects/Java_club_member.gif",
     category: ["Other"],
     projectUrl: "http://java.apps.rok.jp:22561/",
-    deployed: true,
+    deployed2: true,
   },
   {
     name: "英語学習アプリ",
