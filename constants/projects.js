@@ -5,7 +5,7 @@ export const projects = [
     overview: "グラフで分析できる家計簿アプリです",
     messagetitle: "【使用技術】",
     message:
-      "React / ReactHookForm / TypeScript / MUI / Firebase / Zpd / react-chartjs-2 / DateFNS / FullCalendar",
+      "React / ReactHookForm / TypeScript / MUI / Firebase / Zod / react-chartjs-2 / DateFNS / FullCalendar",
     githubUrl: "https://github.com/smieanne/household-app",
     image: "../../assets/projects/Household.gif",
     category: ["react"],
