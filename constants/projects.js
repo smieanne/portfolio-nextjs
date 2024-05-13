@@ -1,5 +1,19 @@
 export const projects = [
   {
+    name: "家計簿",
+    overviewtitle: "【概要】",
+    overview: "グラフで分析できる家計簿アプリです",
+    messagetitle: "【使用技術】",
+    message:
+      "React / ReactHookForm / TypeScript / MUI / Firebase / Zpd / react-chartjs-2 / DateFNS / FullCalendar",
+    githubUrl: "https://github.com/smieanne/household-app",
+    image: "../../assets/projects/Household.gif",
+    category: ["react"],
+    projectUrl: "https://householdtypescript-906f7.web.app/report",
+    deployed: true,
+    deployed2: true,
+  },
+  {
     name: "Discordクローン",
     overviewtitle: "【概要】",
     overview: "Discordクローン。チャットアプリです",
