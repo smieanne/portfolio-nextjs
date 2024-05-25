@@ -65,7 +65,7 @@ function Contact() {
                 <h5>SNS </h5>
                 <div className="flex gap-5 ">
                   <a
-                    href="https://www.instagram.com/an820150?igsh=dHNpYW0zYnJkdTJp"
+                    // href="https://www.instagram.com/an820150?igsh=dHNpYW0zYnJkdTJp"
                     target="_blank"
                     className="text-3xl text-pink-700 hover:text-black"
                   >
