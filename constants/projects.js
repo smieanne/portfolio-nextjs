@@ -1,5 +1,19 @@
 export const projects = [
   {
+    name: "Budget Buddy",
+    overviewtitle: "【概要】",
+    overview: "シンプルな家計簿アプリです",
+    messagetitle: "【使用技術】",
+    message:
+      "React / ReactHookForm / TypeScript / MUI / Firebase / Zod / DateFNS",
+    githubUrl: "https://github.com/smieanne/budget-buddy-app",
+    image: "../../assets/projects/BudgetBuddy.gif",
+    category: ["react"],
+    projectUrl: "https://budget-buddy-app-eta.vercel.app/",
+    deployed: true,
+    deployed2: true,
+  },
+  {
     name: "家計簿",
     overviewtitle: "【概要】",
     overview: "グラフで分析できる家計簿アプリです",
