@@ -23,7 +23,7 @@ export const projects = [
     githubUrl: "https://github.com/smieanne/household-app",
     image: "../../assets/projects/Household.gif",
     category: ["react"],
-    projectUrl: "https://householdtypescript-906f7.web.app/report",
+    projectUrl: "https://householdtypescript-906f7.web.app",
     deployed: true,
     deployed2: true,
   },
