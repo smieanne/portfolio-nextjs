@@ -49,6 +49,16 @@ function ProjectFilter({ activeCategory, setActiveCategory, setFiltered }) {
       </button>
       <button
         className={
+          activeCategory == "WebSite"
+            ? "bg-black py-1 px-10 text-white rounded-lg"
+            : null
+        }
+        onClick={() => setActiveCategory("WebSite")}
+      >
+        WebSite
+      </button>
+      <button
+        className={
           activeCategory == "Other"
             ? "bg-black py-1 px-10 text-white rounded-lg"
             : null
