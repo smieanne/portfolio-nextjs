@@ -63,6 +63,19 @@ export const projects = [
     deployed2: true,
   },
   {
+    name: "労働力調査ダッシュボード",
+    overviewtitle: "【概要】",
+    overview: "GCPのBigQueryを使用したデータ分析",
+    messagetitle: "【使用技術】",
+    message: "GCP / BigQuery / DataPotal",
+    // githubUrl: "https://github.com/smieanne/noteapp-with-react",
+    image: "../../assets/projects/marketing_labor.gif",
+    category: ["Marketing"],
+    // projectUrl: "https://noteapp-with-react-bay.vercel.app/",
+    // deployed: true,
+    // deployed2: true,
+  },
+  {
     name: "ノートアプリ",
     overviewtitle: "【概要】",
     overview: "メモの新規作成、編集、削除ができるノートアプリ",
@@ -75,6 +88,7 @@ export const projects = [
     deployed: true,
     deployed2: true,
   },
+
   {
     name: "ポケモン図鑑",
     overviewtitle: "【概要】",
