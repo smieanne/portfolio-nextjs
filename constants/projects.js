@@ -127,7 +127,7 @@ export const projects = [
     messagetitle: "【使用技術】",
     message: "Express / html / css / javascript / Typescript / mysql",
     githubUrl: "https://github.com/smieanne/Reversi",
-    image: "../../assets/projects/Reversi.png",
+    image: "../../assets/projects/Reversi.gif",
     category: ["Other"],
   },
 ];
