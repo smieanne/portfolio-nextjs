@@ -72,7 +72,7 @@ function Contact() {
                     <FaSquareInstagram />
                   </a>
                   <a
-                    href="https://x.com/anne3829?t=M98eJR515ubdE-UY195Lkw&s=09"
+                    href=""
                     target="_blank"
                     className="text-3xl text-pink-700 hover:text-black"
                   >
