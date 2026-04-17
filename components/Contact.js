@@ -72,14 +72,14 @@ function Contact() {
                     <FaSquareInstagram />
                   </a>
                   <a
-                    href=""
+                    // href=""
                     target="_blank"
                     className="text-3xl text-pink-700 hover:text-black"
                   >
                     <FaSquareXTwitter />
                   </a>
                   <a
-                    href="https://www.tiktok.com/@anne1500820?_t=8ls2tIlNi6u&_r=1"
+                    // href="https://www.tiktok.com/@anne1500820?_t=8ls2tIlNi6u&_r=1"
                     target="_blank"
                     className="text-3xl text-pink-700 hover:text-black"
                   >
