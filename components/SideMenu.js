@@ -102,7 +102,7 @@ function SideMenu() {
               <AiFillGithub />
             </a>
             <a
-              href="https://x.com/anne3829?t=M98eJR515ubdE-UY195Lkw&s=09"
+              
               target="_blank"
               className="bg-white p-2 rounded-full cursor-pointer hover:bg-black text-pink-700"
             >
